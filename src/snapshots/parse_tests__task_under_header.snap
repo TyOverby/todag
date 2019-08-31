@@ -1,0 +1,21 @@
+---
+source: src/parse_tests.rs
+expression: tasks
+---
+[
+    Task {
+        checked: false,
+        path: [
+            "Header Name",
+        ],
+        name: [
+            Text(
+                Borrowed(
+                    "Task Name",
+                ),
+            ),
+        ],
+        description: [],
+        nested: [],
+    },
+]

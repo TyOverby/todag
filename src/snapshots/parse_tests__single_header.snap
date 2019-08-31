@@ -1,0 +1,10 @@
+---
+source: src/parse_tests.rs
+expression: headers
+---
+[
+    Header {
+        depth: 1,
+        text: "a",
+    },
+]

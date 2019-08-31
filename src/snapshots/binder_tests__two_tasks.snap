@@ -1,0 +1,34 @@
+---
+source: src/binder_tests.rs
+expression: bound
+---
+[
+    BoundTask {
+        id: Id(
+            0,
+        ),
+        name: [
+            Text(
+                Borrowed(
+                    "Title of A",
+                ),
+            ),
+        ],
+        description: [],
+        depends_on: [],
+    },
+    BoundTask {
+        id: Id(
+            1,
+        ),
+        name: [
+            Text(
+                Borrowed(
+                    "Title of B",
+                ),
+            ),
+        ],
+        description: [],
+        depends_on: [],
+    },
+]

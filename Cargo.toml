@@ -1,0 +1,10 @@
+[package]
+name = "todag"
+version = "0.1.0"
+authors = ["Ty Overby <ty@pre-alpha.com>"]
+edition = "2018"
+
+[dependencies]
+pulldown-cmark = "*"
+itertools="*"
+insta="*"

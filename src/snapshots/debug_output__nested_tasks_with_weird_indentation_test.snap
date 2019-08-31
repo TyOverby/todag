@@ -1,0 +1,72 @@
+---
+source: src/parse_tests.rs
+expression: v
+---
+[
+    Start(
+        List(
+            None,
+        ),
+    ),
+    Start(
+        Item,
+    ),
+    TaskListMarker(
+        false,
+    ),
+    Text(
+        Borrowed(
+            "title of parent",
+        ),
+    ),
+    SoftBreak,
+    Text(
+        Borrowed(
+            "description of parent",
+        ),
+    ),
+    Start(
+        List(
+            None,
+        ),
+    ),
+    Start(
+        Item,
+    ),
+    TaskListMarker(
+        false,
+    ),
+    Text(
+        Borrowed(
+            "title of child",
+        ),
+    ),
+    SoftBreak,
+    Text(
+        Borrowed(
+            "description of child",
+        ),
+    ),
+    SoftBreak,
+    Text(
+        Borrowed(
+            "more description of parent",
+        ),
+    ),
+    End(
+        Item,
+    ),
+    End(
+        List(
+            None,
+        ),
+    ),
+    End(
+        Item,
+    ),
+    End(
+        List(
+            None,
+        ),
+    ),
+]

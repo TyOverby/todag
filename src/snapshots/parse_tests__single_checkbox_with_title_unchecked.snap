@@ -1,0 +1,19 @@
+---
+source: src/parse_tests.rs
+expression: tasks
+---
+[
+    Task {
+        checked: false,
+        path: [],
+        name: [
+            Text(
+                Borrowed(
+                    "this is the title",
+                ),
+            ),
+        ],
+        description: [],
+        nested: [],
+    },
+]

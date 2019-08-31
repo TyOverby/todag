@@ -1,0 +1,56 @@
+---
+source: src/parse_tests.rs
+expression: v
+---
+[
+    Start(
+        List(
+            None,
+        ),
+    ),
+    Start(
+        Item,
+    ),
+    TaskListMarker(
+        false,
+    ),
+    Text(
+        Borrowed(
+            "a name",
+        ),
+    ),
+    SoftBreak,
+    Text(
+        Borrowed(
+            "a description",
+        ),
+    ),
+    End(
+        Item,
+    ),
+    Start(
+        Item,
+    ),
+    TaskListMarker(
+        false,
+    ),
+    Text(
+        Borrowed(
+            "b name",
+        ),
+    ),
+    SoftBreak,
+    Text(
+        Borrowed(
+            "b description",
+        ),
+    ),
+    End(
+        Item,
+    ),
+    End(
+        List(
+            None,
+        ),
+    ),
+]
